@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ 
+ body{
+    background-color: rgba(238, 238, 149, 0.507);
+    /* font-size: 16px;
+    font-weight: normal;
+    font-family:'Roboto', sans-serif; */ 
+
+    font: normal 16px 'Roboto', sans-serif
+ }
+h1{
+  text-align: center;
+}
+ .bg-yellow{
+   background-color: rgba(212, 212, 135, 0.521);
+   box-shadow: 0px 0px 14px 5px rgba(212, 212, 135, 0.521);
+ }
+ .bg-blue{
+   background-color: rgba(140, 240, 235, 0.616);
+   box-shadow: 0px 0px 14px 5px rgba(140, 240, 235, 0.616);
+ }
+ .bg-green{
+   background-color: rgba(128, 236, 146, 0.678);
+   box-shadow: 0px 0px 14px 5px rgba(128, 236, 146, 0.678);
+ }
+ .bg-red{
+   background-color: rgba(240, 192, 245, 0.623);
+   box-shadow: 0px 0px 14px 5px rgba(240, 192, 245, 0.623);
+ }
+ .bg-violet{
+   background-color: rgba(161, 170, 243, 0.527);
+   box-shadow: 0px 0px 14px 5px rgba(161, 170, 243, 0.527);
+ }
+ .bg-orange{
+   background-color: rgba(255, 228, 196, 0.603);
+   box-shadow: 0px 0px 14px 5px rgba(255, 228, 196, 0.603);
+ }
+
+ .card{
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    
+  }
+ .list{
+padding: 0px 20px;
+ }
+ .list li{
+   color:rgb(95, 95, 95);
+ }
+ a{
+    color: blue;
+    text-decoration: none;
+ }
+ a:hover{
+    text-decoration: underline;
+ }
+a:visited{
+    color: blueviolet;
+}
+ .avatar{
+    width: 400px;
+    border-radius: 24px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25)
+ }
+ .info p{
+    color: gray;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: capitalize; трансформация текста, типа всё капсом, все с маленькой, каждое слово с большой буквы тыры пыры*/
+    /* letter-spacing: 5px; размер пропуска между символами */
+    /* word-spacing: 42px; размер пропуска между словами */
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+/* .social{
+    background-color:yellow;
+    padding: 10px;
+    border: 5px solid blue;
+    border-radius: 10px;
+} */
+/* .box-model > div{
+    float: left;
+    background:  #000;
+    width: 25%;
+    height: 200px;
+    border: 4px solid red;
+    box-sizing: border-box;
+} */
